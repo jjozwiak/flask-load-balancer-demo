@@ -10,3 +10,15 @@ https://towardsdatascience.com/sample-load-balancing-solution-with-docker-and-ng
 https://docs.docker.com/compose/gettingstarted/
 
 Flask Session - https://www.youtube.com/watch?v=lvKjQhQ8Fwk
+
+#### Gateway Network
+
+```
+docker network inspect bridge
+```
+
+Gateway network IP 172.17.0.1
+
+This explains the nginx load balancing configuration
+
+https://docs.docker.com/network/network-tutorial-standalone/#use-the-default-bridge-network
